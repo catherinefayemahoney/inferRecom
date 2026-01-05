@@ -1,0 +1,53 @@
+Package: inferRecom
+Title: Homologous Recombination  Detection in Family Pedigrees
+Version: 0.99.1
+Authors@R: c(
+    person("Catherine", "Mahoney", 
+      email = "catherine.f.mahoney@gmail.com", 
+      role = c("aut", "cre"),
+      comment = c(ORCID = "0000-0003-0424-104X")),
+    person("Michael", "Salter-Townshend", 
+      email = "michael.salter-townshend@ucd.ie", 
+      role = c("aut"),
+      comment = c(ORCID = "0000-0001-6232-9109")),
+    person("Denis", "Shields", 
+      email = "denis.shields@ucd.ie", 
+      role = c("aut"),
+      comment = c(ORCID = "0000-0003-4015-2474")),
+    person(
+      given = "Irish Research Council",
+      role = "fnd",                  
+      comment = "Grant EPSPG/2019/443"
+    ))
+Description: This package implements a pedigree-based algorithm to detect 
+    homologous recombination. Additional functions are supplied to detect runs 
+    of homozygosity and to phase haplotypes at informative SNPs.
+License: GPL (>= 3)
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+VignetteBuilder: knitr
+biocViews: Genetics, SNP, GenomeAnnotation, Sequencing, Coverage
+Depends:
+    R (>= 4.5.0),
+    SummarizedExperiment,
+    GenomicRanges,
+    S4Vectors
+Imports:
+    methods,
+    utils,
+    IRanges,
+    snpStats,
+    BiocParallel,
+    dplyr,
+    stats
+Suggests:
+    testthat (>= 3.0.0),
+    knitr,
+    rmarkdown,
+    BiocStyle,
+    rtracklayer,
+    trackViewer
+BugReports: https://github.com/catherinefayemahoney/inferRecom/issues
+URL: https://github.com/catherinefayemahoney/inferRecom
+Config/testthat/edition: 3
