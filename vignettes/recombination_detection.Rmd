@@ -3,8 +3,9 @@ title: "Detecting Homologous Recombination in Family Pedigrees"
 author: 
   - name: Catherine Mahoney
   - name: Michael Salter-Townshend
+    affiliation: University College Dublin
   - name: Denis Shields
-  - affiliation: University College Dublin
+    affiliation: University College Dublin
 output:
   BiocStyle::html_document:
     toc_float: true
