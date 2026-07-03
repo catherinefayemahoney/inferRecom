@@ -28,6 +28,9 @@
 #' @source Simulated data based on CEU population structure from 1000 Genomes
 #' Project and R package \code{sim1000G}
 #'
+#' @return No R object is returned. Access files via
+#' \code{system.file("extdata", package = "inferRecom")}.
+#'
 #' @references
 #' Siva, N. (2008). 1000 Genomes project.
 #'
@@ -55,6 +58,9 @@ NULL
 #' }
 #'
 #' @source Derived from European sex-specific maps from Bherer, et al. (2014).
+#'
+#' @return No R object is returned. Access files via
+#' \code{system.file("extdata", package = "inferRecom")}.
 #'
 #' @references
 #' Bhérer, C., Campbell, C. L., & Auton, A. (2017). Refined genetic maps reveal
@@ -118,4 +124,7 @@ NULL
 #' }
 #'
 #' @name crossoverData
+#'
+#' @return No R object is returned. Access files via
+#' \code{system.file("extdata", package = "inferRecom")}.
 NULL

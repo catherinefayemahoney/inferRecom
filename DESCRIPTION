@@ -1,6 +1,6 @@
 Package: inferRecom
 Title: Homologous Recombination  Detection in Family Pedigrees
-Version: 0.99.1
+Version: 0.99.2
 Authors@R: c(
     person("Catherine", "Mahoney", 
       email = "catherine.f.mahoney@gmail.com", 
@@ -25,7 +25,7 @@ Description: This package implements a pedigree-based algorithm to detect
 License: GPL (>= 3)
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.3.3
+RoxygenNote: 8.0.0
 VignetteBuilder: knitr
 biocViews: Genetics, SNP, GenomeAnnotation, Sequencing, Coverage
 Depends:

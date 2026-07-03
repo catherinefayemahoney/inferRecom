@@ -15,6 +15,10 @@ files with metadata columns:
 \item{finishCm}{Genetic position at interval end (cM)}
 }
 }
+\value{
+No R object is returned. Access files via
+\code{system.file("extdata", package = "inferRecom")}.
+}
 \description{
 Pre-computed maternal and paternal crossover events from the simCEU dataset.
 Used for testing and demonstrating haplotype phasing functionality.

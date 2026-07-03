@@ -16,6 +16,10 @@ PLINK binary format files (.bed, .bim, .fam) containing:
 Simulated data based on CEU population structure from 1000 Genomes
 Project and R package \code{sim1000G}
 }
+\value{
+No R object is returned. Access files via
+\code{system.file("extdata", package = "inferRecom")}.
+}
 \description{
 A simulated CEU (Utah residents with Northern and Western European ancestry)
 dataset for demonstrating crossover detection and ROH analysis.

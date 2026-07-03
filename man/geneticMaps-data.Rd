@@ -20,6 +20,10 @@ femaleMap <- read.delim(file.path(dataPath, "female_chr4.txt"))
 \source{
 Derived from European sex-specific maps from Bherer, et al. (2014).
 }
+\value{
+No R object is returned. Access files via
+\code{system.file("extdata", package = "inferRecom")}.
+}
 \description{
 Sex-specific and sex-averaged genetic maps for chromosome 4.
 }
